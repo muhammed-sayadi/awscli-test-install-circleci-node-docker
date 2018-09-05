@@ -4,7 +4,6 @@
 # Install AWS CLI
 ##################
 
-# Setup pip first
 sudo apt-get install -y libpython-dev
 
 # Download awscli bundle
