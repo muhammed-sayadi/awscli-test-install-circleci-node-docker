@@ -4,6 +4,12 @@
 # Install AWS CLI
 ##################
 
+# Setup pip first
+apk --no-cache add python3 && \
+	pip3 install --upgrade \
+		pip \
+		setuptools &&
+
 # Download awscli bundle
 curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
 
