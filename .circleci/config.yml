@@ -14,3 +14,10 @@ jobs:
             cd .circleci
             chmod +x install.sh
             ./install.sh
+
+      - run:
+          name: Install AWS CLI
+          command: |
+            cd .circleci
+            chmod +x install.sh
+            ./install.sh
