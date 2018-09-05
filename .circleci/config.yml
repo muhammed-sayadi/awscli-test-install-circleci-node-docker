@@ -7,8 +7,8 @@ version: 2
       - checkout
 
       - run:
-        name: Install AWS CLI
-        command: |
-          cd .circleci
-          chmod +x install.sh
-          ./install.sh
+          name: Install AWS CLI
+          command: |
+            cd .circleci
+            chmod +x install.sh
+            ./install.sh
