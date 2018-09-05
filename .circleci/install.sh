@@ -5,7 +5,7 @@
 ##################
 
 # Setup pip first
-sudo apt-get install python3
+sudo apt-get install -y python3 libpython-dev
 pip3 install --upgrade
 pip setuptools
 
