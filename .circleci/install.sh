@@ -5,9 +5,7 @@
 ##################
 
 # Setup pip first
-sudo apt-get install -y python3 libpython-dev
-pip3 install --upgrade
-pip setuptools
+sudo apt-get install -y libpython-dev
 
 # Download awscli bundle
 curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
