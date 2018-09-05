@@ -3,12 +3,12 @@ version: 2
       build:
         docker:
           - image: circleci/node:8.9.1
-    steps:
-      - checkout
+      steps:
+        - checkout
 
-      - run:
-          name: Install AWS CLI
-          command: |
-            cd .circleci
-            chmod +x install.sh
-            ./install.sh
+        - run:
+            name: Install AWS CLI
+            command: |
+              cd .circleci
+              chmod +x install.sh
+              ./install.sh
