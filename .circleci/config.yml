@@ -19,5 +19,5 @@ jobs:
           name: Install AWS CLI
           command: |
             cd .circleci
-            chmod +x install.sh
-            ./install.sh
+            chmod +x test.sh
+            ./test.sh
