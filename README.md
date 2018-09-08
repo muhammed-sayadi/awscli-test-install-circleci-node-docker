@@ -1,7 +1,7 @@
 # awscli-test-install-circleci-node-docker [![CircleCI](https://circleci.com/gh/muhammed-sayadi/awscli-test-install-circleci-node-docker.svg?style=shield)](https://circleci.com/gh/muhammed-sayadi/awscli-test-install-circleci-node-docker)
 A minimal example to use AWS command line tools (awscli) in Circle's node docker images.
 
-## The usual installation steps
+## The Usual Installation Steps
 Installing aswcli can be done in many ways. One way that usually works well is to download the awscli bundle, extract it,
 and run the install script, as follows:
 ```
