@@ -59,3 +59,7 @@ Note that to use the awscli afterwards, you need to specify the path to the exec
 ```
 ~/bin/aws s3 ls
 ```
+
+## Resources
+
+https://github.com/aws/aws-cli/issues/2290
